@@ -28,15 +28,19 @@ angular.module('BatmanCharactersApp')
 		$anchorScroll.yOffset = 10; 
 	}])	
 .controller('CharactersController', ['$scope', '$http', '$location', '$anchorScroll',
-    function($scope, $http, $location, $anchorScroll) {
+    function($scope, $http, $location, $anchorScroll, $window) {
         $http.get('characters.json').success( function(data) {
             $scope.characters = data
         });
 
-        $scope.jumpToId = function(id) {
+        $scope.goToCharacterPage = function(name) {
+        	$location.path("/character/" + name)
+        };
+
+        $scope.scrollToCharacter = function(name) {
         	$location.hash(id);
         	$anchorScroll();
-        };
+        }
     }])
 .controller('CharacterController', ['$scope', '$http', '$routeParams',
 	function($scope, $http, $routeParams) {
