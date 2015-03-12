@@ -15,13 +15,17 @@ angular.module('BatmanCharactersApp', ['ngRoute'])
 			{
 				templateUrl: "./partials/characterPage.html",
 				controller: "CharacterController"
+			})
+			.when('/hello',
+			{
+				template: "Hello World"
 			});
 		}]);
 
 angular.module('BatmanCharactersApp')
 .run(['$anchorScroll', 
 	function($anchorScroll) {
-		$anchorScroll.yOffset = 50; 
+		$anchorScroll.yOffset = 10; 
 	}])	
 .controller('CharactersController', ['$scope', '$http', '$location', '$anchorScroll',
     function($scope, $http, $location, $anchorScroll) {
@@ -34,8 +38,8 @@ angular.module('BatmanCharactersApp')
         	$anchorScroll();
         };
     }])
-.controller('CharacterController', ['$scope', '$routeParams',
-	function($scope, $routeParams) {
+.controller('CharacterController', ['$scope', '$http', '$routeParams',
+	function($scope, $http, $routeParams) {
 		$http.get('characters.json').success( function(data) {
         	for(var i=0; i<data.length; i++) {
         		if (data[i].characterName == $routeParams.name) {
