@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="BatmanCharactersApp">
+    <head>
+        <title>Batman Characters</title>
+        <style>
+            table, th, td { 
+                border: 1px solid grey;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+            .title_links {
+                padding-right: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div ng-view></div>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src='js/main.js'></script>
+    </body>
+</html>

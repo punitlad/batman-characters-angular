@@ -1,26 +1,29 @@
-var batmanCharacters = angular.module('batmanCharacters', ['ngRoute']);
+(function () {
 
-batmanCharacters
+'use strict';
+
+angular.module('BatmanCharactersApp', ['ngRoute'])
 .config(['$routeProvider', 
 	function ($routeProvider) {
 		$routeProvider
-			.when('/character/:name',
-			{
-				templateUrl: "characterPage.html",
-				controller: "characterController"
-			})
 			.when('/',
 			{
-				template: "hello"
-				// templateUrl: "indexz.html",
-				// controller: "charactersController"
+				templateUrl: "./partials/characterList.html",
+				controller: "CharactersController"
+			})
+			.when('/character/:name',
+			{
+				templateUrl: "./partials/characterPage.html",
+				controller: "CharacterController"
 			});
-		}])
+		}]);
+
+angular.module('BatmanCharactersApp')
 .run(['$anchorScroll', 
 	function($anchorScroll) {
 		$anchorScroll.yOffset = 50; 
 	}])	
-.controller('charactersController', ['$scope', '$http', '$location', '$anchorScroll',
+.controller('CharactersController', ['$scope', '$http', '$location', '$anchorScroll',
     function($scope, $http, $location, $anchorScroll) {
         $http.get('characters.json').success( function(data) {
             $scope.characters = data
@@ -31,7 +34,7 @@ batmanCharacters
         	$anchorScroll();
         };
     }])
-.controller('characterController', ['$scope', '$routeParams',
+.controller('CharacterController', ['$scope', '$routeParams',
 	function($scope, $routeParams) {
 		$http.get('characters.json').success( function(data) {
         	for(var i=0; i<data.length; i++) {
@@ -41,5 +44,6 @@ batmanCharacters
         		}
         	}
         });
-	}])
-;
+	}]);
+
+}());
