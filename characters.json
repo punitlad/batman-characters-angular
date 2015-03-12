@@ -1,0 +1,107 @@
+[
+{ 
+    "characterName": "Joker",
+    "realName": "Unknown",
+    "description": "The Joker is a master criminal with a clown-like appearance, portrayed as a violent sociopath who murders people for his own amusement. He has been responsible for numerous tragedies in Batman's life, including the paralysis of Barbara Gordon (Batgirl/Oracle) and the murders of Jason Todd (the second Robin) and Jim Gordon's second wife Sarah Essen.",
+    "link": "Joker",
+    "image": "http://wallpapers.windowsace.com/pics/-/a/-are-viewing-joker-hahaha-hush-here-ya-go-desktop-1024x768-wallpaper-d-a-ibackgroundz.com.jpg"
+},
+{
+    "characterName": "Batman",
+    "realName": "Bruce Wayne",
+    "description": "Batman is the secret identity of Bruce Wayne. Witnessing the murder of his parents as a child leads him to train himself to physical and intellectual perfection and don a bat-themed costume in order to fight crime. ",
+    "link": "Batman", 
+    "image": "http://www.minieden.co.uk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/a/batman2.jpg"
+},
+{
+    "characterName": "Nightwing", 
+    "realName": "Dick Grayson",
+    "description": "The youngest in a family of acrobats known as the 'Flying Graysons', Dick watched a mafia boss kill his parents in order to extort money from the circus that employed them. Bruce Wayne, secretly the vigilante Batman, took him in as his legal ward after witnessing their deaths, and eventually as his sidekick, Robin.",
+    "link": "Dick_Grayson",
+    "image": "http://static.giantbomb.com/uploads/original/4/48227/1333453-2008_11_02_nightwing.jpg"
+},
+{
+    "characterName": "Two-Face",
+    "realName": "Harvey Dent",
+    "description": "Harvey Dent was Gotham City's amiable and courteous district attorney and one of Batman's strongest allies until Sal 'Boss' Maroni threw acid in his face, hideously scarring him. It also fractured his mental state, causing him to become Two-Face, a schizoid criminal mastermind obsessed with duality and the number two.",
+    "link": "Two-Face",
+    "image": "http://vignette4.wikia.nocookie.net/batman/images/a/a0/1692963-profile_twoface.jpeg/revision/latest?cb=20111103064141"
+},
+{
+    "characterName": "The Riddler",
+    "realName": "Edward Nigma",
+    "description": "Known for his purple domino mask and green question mark-covered costume, either as a skintight cat suit or a business suit and bowler hat and his special question mark shaped cane, the Riddler is obsessed with riddles, puzzles, and word games. He delights in forewarning police and Batman of his capers by sending them complex clues.",
+    "link": "The_Riddler",
+    "image": "http://static.tvtropes.org/pmwiki/pub/images/2941819_orig_7519.jpg"
+},
+{
+    "characterName": "Catwoman",
+    "realName": "Selina Kyle",
+    "description": "Currently portrayed as an orphan who learned to survive on Gotham City's streets, Selina took to thievery to survive... but determined to do it in style, she learned martial arts and trained extensively to perfect her skills in cat burglary. ",
+    "link": "Catwoman",
+    "image": "http://static.comicvine.com/uploads/original/6/68616/2293220-tumblr_m1i5hzov5z1qjcq1co1_500.jpg"
+},
+{
+    "characterName": "Alfred Pennyworth",
+    "realName": "Alfred Thaddeus Crane Pennyworth",
+    "description": "Alfred Thaddeus Crane Pennyworth is Bruce Wayne's valet at Wayne Manor. He knows that Bruce is secretly Batman and aids him. ",
+    "link": "Alfred_Pennyworth",
+    "image": "http://aforanything.com/wp-content/uploads/2014/01/Alfred-Pennyworth.jpg"
+},
+{
+    "characterName": "Bane",
+    "realName": "Dorrance",
+    "description": "Bane is an escaped convict from an island prison in South America and a super-villain/assassin. Bane has abnormal physical strength as a result of having had undergone experiments involving a derivative of the drug Venom.",
+    "link": "Bane",
+    "image": "http://vignette1.wikia.nocookie.net/batman/images/d/dc/Bane_pic.jpg/revision/latest?cb=20090813200925"
+},
+{
+    "characterName": "Poison Ivy",
+    "realName": "Pamela Lillian Isley",
+    "description": "She is depicted as one of the world's most prominent eco-terrorists. She is obsessed with plants, botany, and environmentalism. She uses toxins from plants and her own bloodstream for her criminal activities, which are usually aimed at protecting the natural environment. ",
+    "link": "Poison_Ivy",
+    "image": "http://upload.wikimedia.org/wikipedia/en/a/a4/BGK15.png"
+},
+{
+    "characterName": "Scarecrow",
+    "realName": "Jonathan Crane",
+    "description": "The Scarecrow is an overly-obessive and deranged ex-professor of psychology who uses a variety of drugs and psychological tactics to use the fears and phobias of his adversaries. He does not commit his crimes for wealth, but rather as a form of 'research' to further study the effects of fear on humans (later, he does it to satisfy his own psychopathic desires), making the innocent citizens of Gotham his unwilling guinea pigs.",
+    "link": "Scarecrow",
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/bd/f2/45/bdf24587fb8221f7acaa3cf93f270ec6.jpg"
+},
+{
+    "characterName": "Harley Quinn",
+    "realName": "Harleen Frances Quinzel",
+    "description": "Completely devoted to the Joker, totally oblivious to his psychotic nature and his obvious lack of affection for her a characterization that has remained more or less consistent throughout her subsequent appearances. Her name is a play on the word 'harlequin'.",
+    "link": "Harley_Quinn",
+    "image": "http://www.zoom-comics.com/wp-content/uploads/sites/36/2011/01/harley-quinn-and-plug-gun.jpg"
+},
+{
+    "characterName": "The Penguin",
+    "realName": "Oswald Chesterfield Cobblepot",
+    "description": "One of Batman's oldest foes, is an eccentric criminal mastermind, known as much for his love of ornithology and trick umbrellas as for his already shady business dealings. Gotham City's popular Iceberg Lounge serves as Penguin's front for a number of illegal financial stature; the Penguin is a wily foe whose umbrellas conceal a variety of deadly weapons and gadgets.",
+    "link": "The Penguin",
+    "image": "https://s-media-cache-ak0.pinimg.com/originals/28/dc/bd/28dcbd49095df3800c327b326af8d213.jpg" 
+},
+{
+    "characterName": "Hugo Strange",
+    "realName": "Hugo Strange",
+    "description": "A bald misshapen head, complete with bushy eyebrows, coke-bottle glasses and a thick beard accenting his jaw. He is an evil psychologist and chemical genius who knows Batman's secret identity and lusts to take the identity for himself. ",
+    "link": "Hugo_Strange",
+    "image": "http://upload.wikimedia.org/wikipedia/en/thumb/5/52/ModernHugoStrange.jpg/250px-ModernHugoStrange.jpg" 
+},
+{
+    "characterName": "Ra's al-Ghul",
+    "realName": "Ra's al-Ghul",
+    "description": "Little is known of the early years of the nearly immortal Ra's, but it is accepted that he has lived for many centuries due to the Lazarus Pits' mysterious brews that restore his youth. A brilliant master of strategy and organization, Ra's al Ghul's goal is to save the Earth from ecological devastation by destroying most of its population.",
+    "link": "Ra's_al_Ghul",
+    "image": "http://vignette4.wikia.nocookie.net/deadliestfiction/images/9/9b/Ra's_al_Ghul-1.jpg/revision/latest?cb=20111120074845"
+},
+{
+    "characterName": "Batgirl II/Oracle",
+    "realName": "Barbara Gordon",
+    "description": "As Batgirl, Barbara Gordon has been described as one of the most popular characters to appear during the Silver Age of Comic Books and is also regarded as a pop culture icon due to her appearances in the Batman television series of the late 1960s and continued media exposure.",
+    "link": "Barbara_Gordon",
+    "image": "http://wac.450f.edgecastcdn.net/80450F/comicsalliance.com/files/2011/09/batgirl00.jpg"
+}
+]
