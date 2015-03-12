@@ -2,12 +2,28 @@
     <head>
         <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js'></script>
         <script src='charactersController.js'></script>
+        <style>
+            table, th, td { 
+                border: 1px solid grey;
+                border-collapse: collapse;
+                padding: 5px;
+            }
+        </style>
     </head>
     <body>
         <div ng-controller="charactersController">
-            <ul>
-                <li ng-repeat="character in characters"> {{ character }} </li>
-            </ul>
+            <table style="width:100%">
+            <tr ng-repeat="character in characters">
+                <td>
+                    <a ng-href="{{character.link}}" >{{ character.characterName }}</a>
+                </td>
+                <td>{{ character.realName }}</td>
+                <td>{{ character.description }}</td>
+                <td>
+                    <img ng-src="{{character.image}}" style="width: 100px; height: 100px"/>
+                </td>
+            </tr>
+            </table>
         </div>
     </body>
 </html>
