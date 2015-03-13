@@ -3,8 +3,8 @@
 'use strict';
 
 angular.module('BatmanCharactersApp', ['ngRoute'])
-.config(['$routeProvider', 
-	function ($routeProvider) {
+.config(['$routeProvider', '$locationProvider',
+	function ($routeProvider, $locationProvider) {
 		$routeProvider
 			.when('/',
 			{
@@ -17,6 +17,7 @@ angular.module('BatmanCharactersApp', ['ngRoute'])
 				templateUrl: "./partials/characterPage.html",
 				controller: "CharacterController"
 			});
+		$locationProvider.hashPrefix('!');
 		}]);
 
 angular.module('BatmanCharactersApp')
