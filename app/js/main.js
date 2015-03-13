@@ -9,7 +9,8 @@ angular.module('BatmanCharactersApp', ['ngRoute'])
 			.when('/',
 			{
 				templateUrl: "./partials/characterList.html",
-				controller: "CharactersController"
+				controller: "CharactersController",
+				reloadOnSearch: false
 			})
 			.when('/character/:name',
 			{
@@ -33,7 +34,7 @@ angular.module('BatmanCharactersApp')
         	$location.path("/character/" + name)
         };
 
-        $scope.scrollToCharacter = function(name) {
+        $scope.scrollToCharacter = function(id) {
         	$location.hash(id);
         	$anchorScroll();
         }
