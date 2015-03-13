@@ -14,6 +14,21 @@
         </style>
     </head>
     <body>
+        <div ng-controller="CharactersController">
+            <h1 align="center">
+                <a ng-href="#/">Batman Characters</a> - 
+                <a href="http://batman.wikia.com/wiki/Category:Characters">Wiki</a>
+                </br>
+            </h1>
+
+            showCharacterPageLinks: <input type="checkbox" ng-model="showCharacterPageLinks"><br/>
+            <div ng-show="showCharacterPageLinks">
+                <a class="title_links" href="" ng-click="goToCharacterPage(character.characterName)" ng-repeat="character in characters">
+                    {{ character.characterName }} 
+                </a>
+            </div>
+        </div>
+
         <div ng-view></div>
 
         <script src="bower_components/jquery/dist/jquery.js"></script>
