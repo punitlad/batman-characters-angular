@@ -15,10 +15,6 @@ angular.module('BatmanCharactersApp', ['ngRoute'])
 			{
 				templateUrl: "./partials/characterPage.html",
 				controller: "CharacterController"
-			})
-			.when('/hello',
-			{
-				template: "Hello World"
 			});
 		}]);
 

@@ -1,11 +1,22 @@
-
+<div ng-controller="CharacterController">
 <h1 align="center">
     <a href="http://batman.wikia.com/wiki/Category:Characters">Batman Characters</a>
     </br>
 </h1>
+
+showCharacterPageLinks: <input type="checkbox" ng-model="showCharacterPageLinks"><br/>
+<div ng-show="showCharacterPageLinks">
 <a class="title_links" href="" ng-click="goToCharacterPage(character.characterName)" ng-repeat="character in characters">
     {{ character.characterName }} 
 </a>
+</div>
+
+showHashLinks: <input type="checkbox" ng-model="showHashLinks"><br/>
+<div ng-show="showHashLinks">
+<a class="title_links" href="" ng-click="scrollToCharacter(character.link)" ng-repeat="character in characters">
+    {{ character.characterName }} 
+</a>
+</div>
 
 </br>
 </br>
@@ -28,3 +39,4 @@
         </td>
     </tr>
 </table>
+</div>
